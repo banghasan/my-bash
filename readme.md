@@ -10,12 +10,33 @@ Themes dimodifikasi dan sudah sesuai dengan selera saya tentunya.
 
 ![preview](https://raw.githubusercontent.com/banghasan/my-bash/main/2021-07-28_14-39.jpg)
 
+- ada info baterai laptop
+- ada kolom waktu terminal
+- ada kolom info repo git, branch, dan perubahannya
+- ada info ERROR jika terdapat kesalahan
+- ada info lama eksekusi aplikasi
+
 ## Sistem
 
 `my bash` menggunakan [ohmypost](https://ohmyposh.dev) sebagai aplikasi pengantarnya.
 
 Sehingga disarankan untuk melihat atau membaca dokumentasi sumbernya.
 
+
+Mengapa menggunakan **ohmypost**, padahal sudah lama pakai [Powerline](https://github.com/b-ryan/powerline-shell) ?
+
+Karena:
+
+- dibangun menggunakan [golang](https://golang.org/), performa lebih menjajikan (speed dll)
+- tanpa dependecy apapun
+- lebih mudah customisasi.
+- documentasi bagus.
+
+> Apakah untuk Windows jalan? Nggak tau, saya dah lama gak pake windows :-)
+
+## Cara Pakai
+
+Lima langkah menuju my bash
 
 ### 1. Install
 
