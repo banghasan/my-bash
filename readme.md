@@ -76,15 +76,17 @@ eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/banghasan.omp.json
 
 Boleh di pasang pada sistem global, atau pada user aktif saja. Karena di aku laptop dipakai sendirian, maka aku pasang di user aktif.
 
-Buat pada user aktif jika folder belum ada, bikin dahulu folder `~/.fonts`:
+Buat pada user aktif jika folder belum ada, bikin dahulu folder `fonts`:
 
 ```bash
 mkdir -p ~/.fonts
 ```
 
+> Jika di sistem global `sudo mkdir -p /usr/local/share/fonts/`
+
 Download font di [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads).
 
-Pilih sesuai selera. Kemudian ekstrak, letakkan file di folder `~/.fonts` tersebut.
+Pilih sesuai selera. Kemudian ekstrak, letakkan file di folder tersebut.
 
 ### 5. Sesuaikan
 
