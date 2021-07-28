@@ -98,4 +98,11 @@ pada bagian style bisa diganti menjadi:
 
 Dicoba-coba saja biar tahu efek nya :-)
 
-Cek: [referensi](https://ohmyposh.dev/docs/path)
+Cek: 
+
+- [referensi path](https://ohmyposh.dev/docs/path)
+
+### Mirror
+
+- [BangHasan](https://git.banghasan.com/banghasan/my-bash)
+- [Github](https://github.com/banghasan/my-bash)
