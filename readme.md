@@ -8,6 +8,7 @@ Themes dimodifikasi dan sudah sesuai dengan selera saya tentunya.
 
 ## Tampilan
 
+![preview](https://raw.githubusercontent.com/banghasan/my-bash/main/2021-07-28_14-39.jpg)
 
 ## Sistem
 
@@ -29,7 +30,7 @@ Install themes `my bash` yang aku pakai:
 
 ```bash
 mkdir ~/.poshthemes
-wget URL -O ~/.poshthemes
+wget https://github.com/banghasan/my-bash/raw/main/banghasan.omp.json -O ~/.poshthemes
 ```
 
 ### 3. Bash
