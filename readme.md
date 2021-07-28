@@ -135,3 +135,4 @@ Cek:
 
 - [BangHasan](https://git.banghasan.com/banghasan/my-bash)
 - [Github](https://github.com/banghasan/my-bash)
+- [Gitlab](https://gitlab.com/banghasan/my-bash)
