@@ -40,6 +40,8 @@ Lima langkah menuju my bash
 
 ### 1. Install
 
+Install **ohmypost** terlebih dahulu ke sistem :
+
 ```bash
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
 sudo chmod +x /usr/local/bin/oh-my-posh
@@ -47,20 +49,22 @@ sudo chmod +x /usr/local/bin/oh-my-posh
 
 ### 2. Themes
 
-Install themes `my bash` yang aku pakai:
+Install themes ini
 
 ```bash
-mkdir ~/.poshthemes
+mkdir -p ~/.poshthemes
 wget https://github.com/banghasan/my-bash/raw/main/banghasan.omp.json -O ~/.poshthemes
 ```
 
 ### 3. Bash
 
-Edit file `.bashrc` pakai editor favoritmu. Misalnya:
+Edit file `.bashrc` :
 
 ```bash
 xed ~/.bashrc
 ```
+
+Boleh juga pakai `nano` / `pico`, `vim`, atau apapun editor favoritmu.
 
 Kemudian tambahkan:
 
@@ -70,7 +74,9 @@ eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/banghasan.omp.json
 
 ### 4. Font
 
-Jika folder belum ada, bikin dahulu folder `~/.fonts`:
+Boleh di pasang pada sistem global, atau pada user aktif saja. Karena di aku laptop dipakai sendirian, maka aku pasang di user aktif.
+
+Buat pada user aktif jika folder belum ada, bikin dahulu folder `~/.fonts`:
 
 ```bash
 mkdir -p ~/.fonts
@@ -78,7 +84,7 @@ mkdir -p ~/.fonts
 
 Download font di [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads).
 
-Pilih yang sesuai selera. Kemudian ekstrak, letakkan file di folder `~/.fonts` tersebut.
+Pilih sesuai selera. Kemudian ekstrak, letakkan file di folder `~/.fonts` tersebut.
 
 ### 5. Sesuaikan
 
